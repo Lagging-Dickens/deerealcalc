@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp"
+                app:backgroundTint="#000000" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_Del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Del"
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="20sp"
+                app:backgroundTint="#000000" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_div"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_multiply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:backgroundTint="#E53935" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.button.MaterialButton
+            android:id="@+id/Btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:backgroundTint="#E53935" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:backgroundTint="#E53935" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_ac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AC"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Btn_equals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="#E53935" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
